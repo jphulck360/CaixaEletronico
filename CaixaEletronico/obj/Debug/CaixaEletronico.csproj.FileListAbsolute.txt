@@ -1,0 +1,5 @@
+C:\Users\jessi\Nego\Documentos JP\CARREIRA\DESAFIOS\Zenvia\PROJCaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.dll
+C:\Users\jessi\Nego\Documentos JP\CARREIRA\DESAFIOS\Zenvia\PROJCaixaEletronico\CaixaEletronico\bin\Debug\CaixaEletronico.pdb
+C:\Users\jessi\Nego\Documentos JP\CARREIRA\DESAFIOS\Zenvia\PROJCaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.dll
+C:\Users\jessi\Nego\Documentos JP\CARREIRA\DESAFIOS\Zenvia\PROJCaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.pdb
+C:\Users\jessi\Nego\Documentos JP\CARREIRA\DESAFIOS\Zenvia\PROJCaixaEletronico\CaixaEletronico\obj\Debug\CaixaEletronico.csprojAssemblyReference.cache
