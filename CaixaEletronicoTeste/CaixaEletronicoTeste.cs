@@ -37,7 +37,7 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(100);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 100: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 100: 1", notas);
         }
 
         // Exemplo: Nota de 50: 1 (quantidade)
@@ -48,7 +48,7 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(50);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 50: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 50: 1", notas);
         }
 
         // Exemplo: Nota de 20: 1 (quantidade)
@@ -59,7 +59,7 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(20);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 20: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 20: 1", notas);
         }
 
         // Exemplo: Nota de 10: 1 (quantidade)
@@ -70,7 +70,7 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(10);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 10: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 10: 1", notas);
         }
 
         // Exemplo: Nota de 100: 1, Nota de 50: 1
@@ -81,7 +81,7 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(150);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 100: 1" + "Quantidade nota de R$ 50: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 100: 1" + "Quantidade notas de R$ 50: 1", notas);
         }
 
         // Exemplo: Nota de 100: 1, Nota de 50: 1, Nota de 20: 1
@@ -92,7 +92,7 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(170);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 100: 1" + "Quantidade nota de R$ 50: 1" + "Quantidade nota de R$ 20: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 100: 1" + "Quantidade notas de R$ 50: 1" + "Quantidade notas de R$ 20: 1", notas);
         }
 
         // Exemplo: Nota de 100: 1, Nota de 50: 1, Nota de 20: 1, Nota de 10: 1
@@ -103,7 +103,7 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(180);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 100: 1" + "Quantidade nota de R$ 50: 1" + "Quantidade nota de R$ 20: 1" + "Quantidade nota de R$ 10: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 100: 1" + "Quantidade notas de R$ 50: 1" + "Quantidade notas de R$ 20: 1" + "Quantidade notas de R$ 10: 1", notas);
         }
 
         [TestMethod]
@@ -113,7 +113,37 @@ namespace CaixaEletronicoTeste
 
             string notas = cx.RealizarSaque(280);
             Console.WriteLine(notas);
-            Assert.AreEqual("Quantidade nota de R$ 100: 2" + "Quantidade nota de R$ 50: 1" + "Quantidade nota de R$ 20: 1" + "Quantidade nota de R$ 10: 1", notas);
+            Assert.AreEqual("Quantidade notas de R$ 100: 2" + "Quantidade notas de R$ 50: 1" + "Quantidade notas de R$ 20: 1" + "Quantidade notas de R$ 10: 1", notas);
+        }
+
+        [TestMethod]
+        public void TestaNotas5()
+        {
+            Caixa cx = new Caixa();
+
+            string notas = cx.RealizarSaque(60);
+            Console.WriteLine(notas);
+            Assert.AreEqual("Quantidade notas de R$ 50: 1" + "Quantidade notas de R$ 10: 1", notas);
+        }
+
+        [TestMethod]
+        public void TestaNotas6()
+        {
+            Caixa cx = new Caixa();
+
+            string notas = cx.RealizarSaque(110);
+            Console.WriteLine(notas);
+            Assert.AreEqual("Quantidade notas de R$ 100: 1" + "Quantidade notas de R$ 10: 1", notas);
+        }
+
+        [TestMethod]
+        public void TestaNotas7()
+        {
+            Caixa cx = new Caixa();
+
+            string notas = cx.RealizarSaque(70);
+            Console.WriteLine(notas);
+            Assert.AreEqual("Quantidade notas de R$ 50: 1" + "Quantidade notas de R$ 20: 1", notas);
         }
     }
 }

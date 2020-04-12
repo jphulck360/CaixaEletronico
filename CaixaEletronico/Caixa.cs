@@ -35,7 +35,7 @@ namespace CaixaEletronico
             {
                 if (lista[i] >= 1 && lista[i] != 0)
                 {
-                    retorno += "Quantidade nota de R$ " + cedulas[i].ToString() + ": " + lista[i].ToString();                    
+                    retorno += "Quantidade notas de R$ " + cedulas[i].ToString() + ": " + lista[i].ToString();                    
                 }
             }
             if (valor <= 0)
