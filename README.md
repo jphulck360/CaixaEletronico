@@ -54,10 +54,10 @@ public void TestaNotas4()
 - Descrição: Verifica N cédulas de "R$ 100", "R$ 50", "R$ 20" e "R$ 10" são utilizadas para o saque.
 
 public void TestaNotas5()
-- Descrição: Verifica a quantidade cédulas de "R$ 50" e "R$ 10" são utilizadas para o saque.
+- Descrição: Verifica a quantidade de cédulas de "R$ 50" e "R$ 10" são utilizadas para o saque.
 
 public void TestaNotas6()
-- Descrição: Verifica N cédulas de "R$ 100" e "R$ 10" são utilizadas para o saque.
+- Descrição: Verifica a quantidade de cédulas de "R$ 100" e "R$ 10" são utilizadas para o saque.
 
 public void TestaNotas7()
-- Descrição: Verifica N cédulas de "R$ 50" e "R$ 20" são utilizadas para o saque.
+- Descrição: Verifica a quantidade de cédulas de "R$ 50" e "R$ 20" são utilizadas para o saque.
